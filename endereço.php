@@ -37,7 +37,7 @@
               
             </div>
             <div class="col-sm">
-                    <form>
+                    <form action="procurar.php" method="POST">
                       <label>Cep:
                         <input name="cep" type="text" id="cep" value="" size="60" maxlength="9" class="form-control">
                       </label>
@@ -62,6 +62,11 @@
                         <input name="ibge" type="text" class="form-control" id="ibge" size="60" />
                       </label>
                       <br />
+
+                      <div class="form-group">
+                        <input type="submit" class="btn btn-primary" name="Salvar">
+                     <!-- Por que precisamos do id e do accept? -->
+                </div>
                     </form>
             </div>
             <div class="col-sm">
