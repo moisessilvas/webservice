@@ -38,28 +38,16 @@
             </div>
             <div class="col-sm">
                     <form action="procurar.php" method="POST">
-                      <label>Cep:
-                        <input name="cep" type="text" id="cep" value="" size="60" maxlength="9" class="form-control">
-                      </label>
-                      <br />
                       <label>Rua:
-                        <input name="rua" type="text" class="form-control" id="logradouro" size="60"/>
-                      </label>
-                      <br />
-                      <label>Bairro:
-                        <input name="bairro" type="text" class="form-control" id="bairro" size="60" />
+                        <input name="rua" type="text" class="form-control" id="logradouro" size="60" required="1" />
                       </label>
                       <br />
                       <label>Cidade:
-                        <input name="cidade" type="text" class="form-control" id="localidade" size="60" />
+                        <input name="cidade" type="text" class="form-control" id="localidade" size="60" required="1" />
                       </label>
                       <br />
                       <label>Estado:
-                        <input name="uf" type="text" id="uf" size="60" class="form-control"/>
-                      </label>
-                      <br />
-                      <label>IBGE:
-                        <input name="ibge" type="text" class="form-control" id="ibge" size="60" />
+                        <input name="uf" type="text" id="uf" size="60" class="form-control" required="1" />
                       </label>
                       <br />
 
